@@ -1,8 +1,9 @@
 fileFormatVersion: 2
 guid: 699a357f2079f4cb58226bf69922d714
-timeCreated: 1461426103
-licenseType: Pro
+labels:
+- Core
 DefaultImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
