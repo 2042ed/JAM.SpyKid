@@ -3,21 +3,23 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 
 public class AppManager : MonoBehaviour
 {
 
     static AppManager _instance;
 
-    public static AppManager Instance {
+    public static AppManager Instance
+    {
         get {
             return _instance;
         }
     }
 
-    public InputField TextInput;
-    public Text TextResult;
-    public Text TextFullScreen;
+    public TMP_InputField TextInput;
+    public TextMeshProUGUI TextResult;
+    public TextMeshProUGUI TextFullScreen;
     public AudioSource TypeSfx;
     public PlayMorseCode MorseCodePlayer;
 
