@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Text.RegularExpressions;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayMorseCode : MonoBehaviour
 {
@@ -10,8 +11,8 @@ public class PlayMorseCode : MonoBehaviour
 
     public bool iSOn = false;
 
-    public InputField inputFieldMCode;
-    public Text morseCodeDisplayText;
+    public TMP_InputField inputFieldMCode;
+    public TextMeshProUGUI morseCodeDisplayText;
 
     public AudioClip dotSound;
     public AudioClip dashSound;

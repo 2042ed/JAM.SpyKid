@@ -213,7 +213,6 @@ GameObject:
   - component: {fileID: 565503795}
   - component: {fileID: 565503797}
   - component: {fileID: 565503796}
-  - component: {fileID: 565503798}
   m_Layer: 5
   m_Name: Panel Gears
   m_TagString: Untagged
@@ -283,21 +282,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565503794}
   m_CullTransparentMesh: 0
---- !u!111 &565503798
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 565503794}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: aef62650d67f74e2da3964feccdd452a, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &618142463
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,7 +568,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
